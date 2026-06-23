@@ -14,47 +14,14 @@ const NAV_LINKS = ['About', 'Experience', 'Projects', 'Research', 'Skills', 'Blo
 const EXPERIENCE = [
   {
     id: 'exp1',
-    role: 'Undergraduate Research Assistant',
+    role: 'Summer Research Fellow (IAS SRFP)',
     org: 'IEM Computational Intelligence Lab',
-    period: 'Aug 2023 – Present',
-    location: 'Kolkata, IN',
-    summary: 'Assisting faculty on human-computer interaction and embedded ML research.',
-    tags: ['TensorFlow', 'Arduino', 'OpenCV'],
+    period: 'May 2026 – July 2026',
+    location: 'Bangalore, Karnataka, IN',
+    summary: 'Leveraging deep learning architectures for representation analysis and latent-space evaluation in medical neuroimaging.',
+    tags: ['Deep Learning', 'Neuroimaging', 'PyTorch', 'Medical AI'],
     detail: [
-      'Contributing to gesture-based control system using MediaPipe and Raspberry Pi.',
-      'Running literature surveys on edge inference optimisation for constrained hardware.',
-      'Co-authoring a paper on real-time hand gesture recognition for accessibility tools.',
-      'Maintaining lab datasets, model checkpoints, and experiment tracking via MLflow.',
-    ],
-  },
-  {
-    id: 'exp2',
-    role: 'Machine Learning Intern',
-    org: 'NeuralBridge Technologies',
-    period: 'May 2024 – Aug 2024',
-    location: 'Remote',
-    summary: 'Built and optimised NLP pipelines for real-time sentiment analysis.',
-    tags: ['Python', 'HuggingFace', 'FastAPI'],
-    detail: [
-      'Developed a BERT-based sentiment classifier achieving 91% accuracy on domain-specific corpora.',
-      'Reduced inference latency by 38% via ONNX quantisation and batching strategies.',
-      'Collaborated with backend team to deploy models behind a FastAPI microservice on AWS Lambda.',
-      'Documented model cards and evaluation reports for internal knowledge base.',
-    ],
-  },
-  {
-    id: 'exp3',
-    role: 'Cybersecurity Research Intern',
-    org: 'SecureNest Labs',
-    period: 'Dec 2023 – Feb 2024',
-    location: 'Kolkata, IN',
-    summary: 'Conducted vulnerability assessments and threat modelling for IoT devices.',
-    tags: ['Kali Linux', 'Wireshark', 'Python'],
-    detail: [
-      'Performed penetration testing on 6 IoT device prototypes, documenting 14 unique CVEs.',
-      'Built automated scanning scripts using Python + Nmap to accelerate recon phase.',
-      'Presented threat model reports to engineering teams, influencing firmware patch cycles.',
-      'Explored man-in-the-middle attack vectors on MQTT broker communication.',
+      'Conducting representation analysis on medical neuroimaging encoders to evaluate latent-space features and model robust optimization across varied cohorts.',
     ],
   },
 ]
@@ -112,7 +79,7 @@ const PROJECTS = [
     detail: 'CrawlMind automates the discovery and organisation of web content. After crawling, each page is embedded using Sentence-BERT and clustered via HDBSCAN. A UMAP projection renders the semantic landscape as an interactive 2D scatter plot, letting users explore topic neighbourhoods visually. Built as a research tool for content gap analysis.',
   },
 ]
-
+/*
 const RESEARCH = [
   {
     id: 'res1',
@@ -145,10 +112,10 @@ const RESEARCH = [
     abstract: 'Web-crawled corpora underpin many large language models, yet the temporal dynamics of these corpora are poorly understood. This work introduces a longitudinal study of semantic drift across three continuously crawled domains over 18 months. We quantify drift using Jensen-Shannon divergence on SBERT embedding distributions and show that models fine-tuned on static snapshots degrade measurably within 6 months, motivating adaptive retraining schedules.',
   },
 ]
-
+*/
 const SKILL_GROUPS = [
   { group: 'Machine Learning', skills: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Keras', 'HuggingFace', 'MLflow', 'ONNX'] },
-  { group: 'Data & NLP', skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'NLTK', 'SpaCy', 'Sentence-BERT', 'HDBSCAN'] },
+  { group: 'Data & NLP', skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'NLTK', 'SpaCy'] },
   { group: 'HCI & Vision', skills: ['OpenCV', 'MediaPipe', 'UMAP', 'Plotly', 'Streamlit', 'Gradio', 'Raspberry Pi', 'Arduino'] },
   { group: 'Cyber Security', skills: ['Kali Linux', 'Wireshark', 'Nmap', 'Burp Suite', 'Metasploit', 'OWASP', 'CTF', 'Network Analysis'] },
   { group: 'Engineering', skills: ['Git', 'Docker', 'FastAPI', 'Flask', 'Linux', 'REST APIs', 'SQL', 'MongoDB'] },
