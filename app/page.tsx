@@ -636,7 +636,7 @@ export default function Home() {
           <p className="section-label fade-in">Contact</p>
           <div className="two-col fade-in" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'start' }}>
             <div>
-              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '2.2rem', fontWeight: 300, lineHeight: 1.2, marginBottom: '1rem' }}>Let's build something that matters.</h2>
+              <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '2.2rem', fontWeight: 300, lineHeight: 1.2, marginBottom: '1rem' }}>Let&apos;s build something that matters.</h2>
               <p style={{ fontSize: '0.78rem', lineHeight: 2, color: 'var(--text-mute)', marginBottom: '1.8rem' }}>
                 Open to research collaborations, internships, and conversations about ML, HCI, or security.
               </p>
