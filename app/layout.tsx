@@ -6,7 +6,7 @@ import ThemeToggle from '@/components/ThemeToggle'
 export const metadata: Metadata = {
   title: 'Samriddhi Bagchi | ML Researcher & Developer',
   description: 'Portfolio of Samriddhi Bagchi, B.Tech in CST student at IEM Kolkata exploring and building systems in machine learning, human-computer interaction, and cybersecurity.',
-  keywords: ['machine learning', 'HCI', 'cybersecurity', 'IEM Kolkata', 'portfolio', 'Samriddhi Bagchi'],
+  keywords: ['machine learning', 'Medical Imaging', 'HCI', 'cybersecurity', 'IEM Kolkata', 'portfolio', 'Samriddhi Bagchi'],
   authors: [{ name: 'Samriddhi Bagchi' }],
   openGraph: {
     title: 'Samriddhi Bagchi — ML Researcher & Developer',
