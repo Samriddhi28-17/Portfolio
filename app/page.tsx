@@ -22,8 +22,8 @@ const EXPERIENCE = [
     tags: ['Deep Learning', 'Neuroimaging', 'PyTorch', 'Medical AI'],
     detail: [
       'Conducting representation analysis on medical neuroimaging encoders to evaluate latent-space features and model robust optimization across varied cohorts.',
-    ],
-  },
+    ]
+  }
 ]
 
 const PROJECTS = [
