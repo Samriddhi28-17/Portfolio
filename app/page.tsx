@@ -81,8 +81,8 @@ const PROJECTS = [
 ]
 
 const RESEARCH: any[] = [];
-/*
-  {
+
+/* {
     id: 'res1',
     title: 'Real-Time Hand Gesture Recognition for Accessibility Interfaces',
     status: 'Under Review',
@@ -112,8 +112,8 @@ const RESEARCH: any[] = [];
     tags: ['NLP', 'Web Mining', 'ML'],
     abstract: 'Web-crawled corpora underpin many large language models, yet the temporal dynamics of these corpora are poorly understood. This work introduces a longitudinal study of semantic drift across three continuously crawled domains over 18 months. We quantify drift using Jensen-Shannon divergence on SBERT embedding distributions and show that models fine-tuned on static snapshots degrade measurably within 6 months, motivating adaptive retraining schedules.',
   },
-]
-*/
+] */
+
 const SKILL_GROUPS = [
   { group: 'Machine Learning', skills: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Keras', 'HuggingFace', 'MLflow', 'ONNX'] },
   { group: 'Data & NLP', skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'NLTK', 'SpaCy'] },
