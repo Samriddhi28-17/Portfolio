@@ -79,8 +79,9 @@ const PROJECTS = [
     detail: 'CrawlMind automates the discovery and organisation of web content. After crawling, each page is embedded using Sentence-BERT and clustered via HDBSCAN. A UMAP projection renders the semantic landscape as an interactive 2D scatter plot, letting users explore topic neighbourhoods visually. Built as a research tool for content gap analysis.',
   },
 ]
+
+const RESEARCH: any[] = [];
 /*
-const RESEARCH = [
   {
     id: 'res1',
     title: 'Real-Time Hand Gesture Recognition for Accessibility Interfaces',
